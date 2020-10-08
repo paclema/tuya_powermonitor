@@ -16,17 +16,17 @@ In order to communicate with tuya devices we need to get for each device:
 1. Install tuya devices using Tuya / Smart Life mobile app and make them work using the official app.
 2. Create a developer account on [iot tuya platform](https://iot.tuya.com/).
 3. Create new project on [Cloud Development](https://iot.tuya.com/cloud/)
-![Cloud_development](imges\Cloud_development.PNG)
+![Cloud_development](imges/Cloud_development.PNG)
 You will need the _Access ID/Client ID_ and the _Access Secret/Client Secret_ for later
 4. Under _Device Management_ of your new project, go to _Linked Device_, select the tab _Link devices by App Account_ and click on _Add App Account_.
-![linked_devices](imges\linked_devices.PNG)
+![linked_devices](imges/linked_devices.PNG)
 It will popup a QR code to authorize your project to access to your devices registered within Tuya mobile app from step 1.
 5. Scan QR using Tuya app and confirm your session.
-![scan_qr](imges\scan_qr.jpg)
+![scan_qr](imges/scan_qr.jpg)
 6. You can check now your account linked on your iot tuya platform under _Device Management_ selecting your location properly.
-![linked_devices_result](imges\linked_devices_result.PNG)
+![linked_devices_result](imges/linked_devices_result.PNG)
 7. Check the devices attached to the project and their _Device ID_.
-![linked_devices_result](imges\device_details.PNG)
+![linked_devices_result](imges/device_details.PNG)
 
 
 ### 2. Get device key:
