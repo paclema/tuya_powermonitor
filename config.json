@@ -1,0 +1,36 @@
+{
+
+  "retries": 5,
+
+  "db":{
+    "db_host": "localhost",
+    "db_port": "8086",
+    "db_user": "user",
+    "db_pwd": "password",
+    "db_name": "dbname"
+  },
+
+  "devices": [
+    {
+      "name": "teckin_sp22_1",
+      "id": "bfbaaaaaaaaaaaaaaa",
+      "key": "68aaaaaaaaaaaaaaa",
+      "ip": "192.168.1.xxx",
+      "ver": "3.3"
+    },
+    {
+      "name": "teckin_sp22_2",
+      "id": "bfbaaaaaaaaaaaaaaa",
+      "key": "68aaaaaaaaaaaaaaa",
+      "ip": "192.168.1.xxx",
+      "ver": "3.3"
+    },
+    {
+      "name": "teckin_sp22_3",
+      "id": "bfbaaaaaaaaaaaaaaa",
+      "key": "68aaaaaaaaaaaaaaa",
+      "ip": "192.168.1.xxx",
+      "ver": "3.3"
+    }
+  ]
+}
