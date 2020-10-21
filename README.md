@@ -68,11 +68,11 @@ $ tuya-cli get --id bf7a6********zzaw --key e3f************* --ip 192.168.1.165 
     '18': 37,
     '19': 51,
     '20': 2274,
-    '21': 1,
-    '22': 609,
-    '23': 32031,
-    '24': 18181,
-    '25': 1148,
+    '21': 1,      ----> test bit
+    '22': 609,    ----> voltage coe Voltage calibration factor
+    '23': 32031,  ----> electric coe. Current calibration factor
+    '24': 18181,  ----> power coe. Power calibration factor
+    '25': 1148,   ----> Electricity. Calibration coefficients for electrical energy
     '26': 0
   }
 }
